@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "crunchers-gym-sync",
+    "staging": "crunchers-gym-sync"
+  },
+  "targets": {},
+  "etags": {}
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Gym Sync",
+  "short_name": "GymSync",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0f12",
+  "theme_color": "#0d0f12",
+  "description": "Daily real-time lift coordination",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
