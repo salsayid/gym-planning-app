@@ -3,6 +3,7 @@
 Minimal real-time daily coordination for a 4‑person lifting squad.
 
 **Live App:** https://crunchers-gym-sync.web.app/
+<img width="895" height="1036" alt="image" src="https://github.com/user-attachments/assets/c660163a-8a82-4c96-9cfe-64518d1e4dc1" />
 
 ## Why
 
