@@ -2,6 +2,7 @@ import React from 'react';
 import { ParticipantCard } from './ParticipantCard';
 import { ConsensusBar } from './ConsensusBar';
 import { ResetButton } from './ResetButton';
+import { ResultsSummary } from './ResultsSummary';
 
 const ORDER = ['sayid', 'yassein', 'ahmed', 'tawfik']; // fixed order prevents reflow/reorder jumps
 
@@ -26,7 +27,7 @@ export function Dashboard({ identity, day, consensus, onUpdate, onReset, offline
           />
         ))}
       </div>
-
+      <ResultsSummary participants={participants} consensus={consensus} />
       <div style={{ marginTop:'1.25rem' }}>
         <ResetButton onReset={onReset} />
       </div>

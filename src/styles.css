@@ -340,3 +340,60 @@ button:active,
 .identity-btn:active {
   transform: none !important;
 }
+
+/* Results summary section */
+.results-summary {
+  margin-top: 1.75rem;
+  background: var(--panel);
+  border: 1px solid var(--panel-alt);
+  border-radius: var(--radius);
+  padding: .9rem .95rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  font-size: .68rem;
+  line-height: 1.35;
+}
+
+.results-group {
+  font-weight: 600;
+  letter-spacing: .5px;
+  font-size: .7rem;
+  color: var(--green);
+}
+
+.results-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+}
+
+.res-item {
+  display: grid;
+  grid-template-columns: 62px 60px 90px 1fr;
+  gap: .5rem;
+  align-items: baseline;
+  padding: .35rem .45rem;
+  border-radius: 10px;
+  background: var(--panel-alt);
+}
+
+@media (max-width:540px){
+  .res-item {
+    grid-template-columns: 54px 50px 70px 1fr;
+    gap: .4rem;
+  }
+}
+
+.res-name { font-weight:600; text-transform:capitalize; }
+.res-focus { text-transform:capitalize; color: var(--text); font-weight:500; }
+.res-window { color: var(--muted); font-family: monospace; font-size:.62rem; }
+.res-line { color: var(--muted); opacity:.85; }
+
+/* Status color hints */
+.status-no .res-name { color: var(--red); }
+.status-unset .res-name { color: var(--amber); }
+.status-yes .res-name { color: var(--green); }
